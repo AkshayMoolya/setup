@@ -1,0 +1,8 @@
+# Python libraries for CloudLCMS (PowerPoint/Word via doctocourse, PDF import via docling).
+# Pinned copy of ../doctocourse/requirement.txt - setup.sh prefers that file when the
+# doctocourse repo is checked out next to this one, and falls back to this list.
+beautifulsoup4==4.14.2
+pillow==11.3.0
+python-pptx==1.0.2
+docling==2.43.0
+docling-core==2.44.1

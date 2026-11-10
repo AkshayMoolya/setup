@@ -1,0 +1,4 @@
+# core.autocrlf=true (the Git for Windows default) would check setup.sh out with
+# CRLF endings, and bash then fails with "$'\r': command not found".
+*.sh  text eol=lf
+*.ps1 text eol=crlf
